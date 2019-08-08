@@ -1,0 +1,19 @@
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	sb = status -sb
+	br = branch
+	df = diff
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	ps = push
+	pl = pull
+	pfl = push --force-with-lease
+	ms = merge --squash
+
+# No user as I have pro and perso identities
+[core]
+	pager = diff-so-fancy | less --tabs=8 -RFX
+
+[credential]
+	helper = cache --timeout 3600
