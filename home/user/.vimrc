@@ -1,5 +1,4 @@
-"relative number and number for the current line
-set rnu
+"number for the current line
 set nu
 
 "refresh when changed from outside

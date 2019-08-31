@@ -16,6 +16,9 @@ export PATH
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
+export GOPATH=$HOME/Logiciels/go
+export PATH=$PATH:$GOPATH/bin
+
 parse_git_branch() {
     return
     #git branch 2> /dev/null
